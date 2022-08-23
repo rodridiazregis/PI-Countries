@@ -1,0 +1,50 @@
+body {
+  background-image: url('../countries.png');
+  background-size: 100%;
+}
+
+.land {
+  font-size: 90px;
+  color: rgb(72, 155, 97);
+  margin-bottom: 100px;
+  margin-top: 20px;
+  font-family:'Roboto',sans-serif;
+}
+
+.land h1 {
+  font-size: 10rem;
+}
+
+.butn{
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+  display: inline-block;
+  padding:0.35em 1.2em ;
+  border:0.1em solid #838383;
+  margin:0 0.3em 0.3em 0;
+  border-radius:1em;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  text-align:center;
+  transition: all 0.2s;
+  font-size: 2rem;
+  color: rgb(72, 155, 97);
+}
+
+.butn:hover{
+  color: rgb(255, 255, 255);
+  background-color: #b4bbe9;
+}
+
+.link {
+  text-decoration: none;
+  width: 3rem;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}

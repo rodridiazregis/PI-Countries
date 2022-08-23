@@ -1,0 +1,67 @@
+.navBarContainer {
+  padding: 1rem 0;
+  display: grid;
+  flex-direction: row;
+  background-color: rgba(196, 224, 196, 1);
+  color: rgb(255, 255, 255);
+  align-self: flex-start;
+  box-shadow: none;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+  border-radius: 4%;
+  margin: 6% auto;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  font-size: 1.3rem;
+}
+
+.country {
+  border-radius: 3px;
+  border: none;
+  height: 30px;
+  margin: 1em 1em 1em 1em;
+  display: center;
+  box-shadow: none;
+}
+
+.inputName {
+  border-radius: 3px;
+  border: none;
+  height: 30px;
+  margin: 1em 1em 1em 1em;
+  display: center;
+  box-shadow: none;
+  width: 65%;
+}
+
+.butn{
+  display: inline-block;
+  padding:0.35em 1.2em ;
+  border:0.1em solid #838383;
+  margin:0 0.3em 0.3em 0;
+  border-radius:1em;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  text-align:center;
+  transition: all 0.2s;
+  font-size: larger;
+  width: 70%;
+}
+  
+.butn:hover{
+    color: rgb(245, 255, 248);
+    background-color: #b4bbe9;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(72, 155, 97);
+}
+
+.link:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}

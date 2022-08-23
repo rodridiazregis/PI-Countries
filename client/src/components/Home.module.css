@@ -1,0 +1,111 @@
+body {
+  background-color: rgb(251, 250, 247, 0.9);
+  
+}
+
+.pagetop {
+  z-index: 4;
+  font-size: 18px;
+  background-color: rgba(251, 250, 247, 0.9);
+  color: rgb(72, 155, 97);
+  padding-left: 12px;
+  padding-right: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+  width: 90%;
+}
+
+.navigation {
+  background-color: rgb(251, 250, 247, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar {
+  position: relative;
+  justify-content: center;
+  width: 25%;
+}
+
+.home-country-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  grid-template-rows: 33% 33% 33%;
+  grid-gap: 1rem;
+  justify-content: center;  
+  background-color: rgb(251, 250, 247, 0.9);
+}
+
+.home-country-container a {
+  width: 12rem;
+}
+
+.footer {
+  background-color: rgb(251, 250, 247, 0.9);
+}
+
+.butn {
+  display: inline-block;
+  padding:0.35em 1.2em ;
+  border:0.1em solid #838383;
+  margin:0 0.3em 0.3em 0;
+  border-radius:1em;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  text-align:center;
+  transition: all 0.2s;
+  font-size: larger;
+  width: 12rem;
+  white-space: nowrap;
+}
+  
+.butn:hover {
+  color: rgb(255, 255, 255);
+  background-color: #b4bbe9;
+}
+
+.butn1 {
+  display: inline-block;
+  padding:0.35em 1.2em ;
+  border:0.1em solid #838383;
+  margin:0 0.3em 0.3em 0;
+  border-radius:1em;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  text-align:center;
+  transition: all 0.2s;
+  font-size: larger;
+  width: 14%;
+}
+  
+.butn1:hover {
+  color: rgb(255, 255, 255);
+  background-color: #b4bbe9;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(72, 155, 97);
+}
+
+.link:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
